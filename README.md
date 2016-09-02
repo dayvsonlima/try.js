@@ -1,4 +1,5 @@
 # try.js
+> Sexy JavaScript fault-tolerant.
 
 
 ```js
