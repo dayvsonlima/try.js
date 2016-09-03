@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>TryJS</title>
+  <meta charset="UTF-8">
+  <title>TryJS</title>
 </head>
 <body>
-    <div id="tryJSIsWonderful"></div>
+  <div id="tryJSIsWonderful"></div>
 
-    <script src="src/try.js"></script>
+  <script src="src/try.js"></script>
 
-    <script>
+  <script>
     var output = document
                     .try('querySelector', 'div')
                     .try('getAttribute', 'id')
                     .try('slice', 0, 5);
 
-    console.log(output);
-    </script>
+  console.log(output);
+  </script>
 </body>
 </html>
