@@ -1,0 +1,23 @@
+{
+  "name": "try.js",
+  "version": "1.0.0",
+  "description": "Sexy JavaScript fault-tolerant",
+  "main": "src/try.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayvsonlima/try.js.git"
+  },
+  "keywords": [
+    "try",
+    "fault-tolerant"
+  ],
+  "author": "Dayvson Lima <dayvsonlima31@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayvsonlima/try.js/issues"
+  },
+  "homepage": "https://github.com/dayvsonlima/try.js#readme"
+}
