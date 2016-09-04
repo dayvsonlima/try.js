@@ -26,3 +26,8 @@ Include the script located on the `dist` folder.
 ```html
 <script src="dist/try.min.js"></script>
 ```
+
+Or use the link CDN
+```html
+<script src="https://cdn.rawgit.com/dayvsonlima/try.js/master/dist/try.min.js"></script>
+```
