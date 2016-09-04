@@ -29,5 +29,5 @@ Include the script located on the `dist` folder.
 
 Or use the link CDN
 ```html
-<script src="https://cdn.rawgit.com/dayvsonlima/try.js/master/dist/try.min.js"></script>
+<script src="//cdn.rawgit.com/dayvsonlima/try.js/master/dist/try.min.js"></script>
 ```
