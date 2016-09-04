@@ -10,3 +10,19 @@ var output = document
 
 console.log(output);
 ```
+
+## Install
+
+Bower
+
+```
+bower install tryjs --save
+```
+
+## Setup
+
+Include the script located on the `dist` folder.
+
+```html
+<script src="dist/try.min.js"></script>
+```
