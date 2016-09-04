@@ -1,23 +1,14 @@
-(function(root){
-  "use strict";
+window.Object.prototype.try = function objectTry(methodName, ...parameters) {
+  const context = this[methodName];
+  const type = typeof context;
 
-  root.Object.prototype.try = function() {
-    var context = this[arguments[0]],
-        type = typeof context,
-        functionArgs = [].slice.call(arguments, 1),
-        result;
+  if (type === 'function') {
+    return this[methodName](...parameters) || false;
+  }
 
-    if (type === 'function') {
-        result = this[arguments[0]].apply(this, functionArgs);
+  if (type === 'undefined') {
+    return false;
+  }
 
-        return !!result ? result : false;
-    }
-
-    if (type === 'undefined') {
-        return false;
-    }
-
-    return context;
-  };
-
-})(window);
+  return context;
+};
