@@ -7,13 +7,13 @@
 <body>
   <div id="tryJSIsWonderful"></div>
 
-  <script src="src/try.js"></script>
+  <script src="dist/try.min.js"></script>
 
   <script>
-    var output = document
-                    .try('querySelector', 'div')
-                    .try('getAttribute', 'id')
-                    .try('slice', 0, 5);
+  var output = document
+                .try('querySelector', 'div')
+                .try('getAttribute', 'id')
+                .try('slice', 0, 5);
 
   console.log(output);
   </script>
