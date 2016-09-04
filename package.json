@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/dayvsonlima/try.js#readme",
   "devDependencies": {
-    "babel-cli": "6.14.0",
+    "babel-cli": "^6.14.0",
     "babel-preset-es2015": "6.14.0",
     "eslint": "3.4.0",
     "eslint-config-airbnb": "10.0.1",

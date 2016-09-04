@@ -1,0 +1,30 @@
+{
+  "name": "tryjs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dayvsonlima/try.js",
+  "authors": [
+    "Dayvson Lima <dayvsonlima31@gmail.com>"
+  ],
+  "description": "Sexy JavaScript Fault-tolerant",
+  "main": "dist/try.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "try.js",
+    "ruby",
+    "rails",
+    "\"fault-tolerant\""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "README.md",
+    "index.html",
+    "package.json"
+  ]
+}
